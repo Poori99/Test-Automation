@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" thread-count="5" name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/PoornimaJayathilake/OneDrive - Xyicon/Documents/My/4 year/SQA/Lec/practicals/Project Code/QA_Project/src/test/java/page_object_model">
+        <classes>
+            <class name="page_object_model.tests.MainTest">
+                <methods>
+                    <include name="test_one"/>
+                    <include name="test_two"/>
+                    <include name="test_three"/>
+                    <include name="test_four"/>
+                    <include name="test_five"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
